@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+:host {
+
+    box-sizing: border-box;
+
+    margin: 0;
+    background-color: var(--lightgrey);
+
+    --lightgrey: #efefef;
+    --lightgreen: #6ee295;
+    --darkgreen: #2e8f5c;
+    --darkgrey: #575757;
+}
+
+.btn {
+    background-color: var(--darkgreen);
+    color:  var(--lightgrey);
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--darkgrey);
+    text-decoration: none;
+}
+

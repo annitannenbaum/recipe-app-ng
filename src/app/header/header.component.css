@@ -1,0 +1,40 @@
+.page-header {
+    text-align: center;
+    background-color: #575757;
+    color: #efefef;
+    padding: 4px;
+    position: static;
+    position: -webkit-sticky; /* Safari */
+    
+}
+
+
+
+.navbar {
+    background-color: #575757;
+    color: #ffffff;
+    text-align: left;
+    overflow: hidden;
+  
+}
+
+.navbar .navbar-brand {
+    color: #efefef;
+    text-align: right;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand:hover {
+    color: #696969;
+}
+
+.navbar .nav-item .nav-link{
+    color: #ffffff;
+    margin: 0;
+    font-weight: bold;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #696969;
+}
+
