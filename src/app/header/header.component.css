@@ -1,19 +1,13 @@
-.page-header {
-    text-align: center;
-    background-color: #575757;
-    color: #efefef;
-    padding: 4px;
-    position: static;
-    position: -webkit-sticky; /* Safari */
-    
+
+#banner {
+    position: relative;
+    margin-top: 4%;
 }
-
-
 
 .navbar {
     background-color: #575757;
     color: #ffffff;
-    text-align: left;
+    text-align: right;
     overflow: hidden;
   
 }

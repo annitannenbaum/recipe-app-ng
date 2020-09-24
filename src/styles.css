@@ -1,6 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
 
 :host {
 
@@ -16,8 +23,8 @@
 }
 
 .btn {
-    background-color: var(--darkgreen);
-    color:  var(--lightgrey);
+    background-color: #2e8f5c !important;
+    color: #efefef !important;
 }
 
 .link {
@@ -30,3 +37,20 @@
     text-decoration: none;
 }
 
+.page-header {
+    text-align: center;
+    background-color: #575757;
+    color: #efefef;
+    padding: 4px;
+    position: static;
+    position: -webkit-sticky; /* Safari */
+    
+}
+
+
+.container-link {
+    margin-left: 25%;
+    width: 50%;
+    color: black;
+    margin-bottom: 5%;
+}
