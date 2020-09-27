@@ -1,26 +1,32 @@
 
-
-
-<nav class="navbar fixed-top navbar-light navbar-expand-sm">
-    <a href="#" class="navbar-brand">
-        <img src="assets/img/brand.JPG" width="65" height="71.2%" alt="logo"></a>
-    <div class="navbar">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="#" class="nav-link">Recipes</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Login</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Sign Up</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
 <img id="banner" src="assets/img/banner_dishes.jpg" width=100% height=auto/>
 
+
+<nav class="navbar sticky-top navbar-dark navbar-expand-md">
+
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div [ngbCollapse]="isCollapsed" class="collapse navbar-collapse">
+        <a href="#" class="navbar-brand">
+            <img src="assets/img/brand.JPG" width="65" height="71.2%" alt="logo">
+        </a>
+        <div class="navbar" [ngbCollapse]="isCollapsed" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" (click)="isCollapsed = true">Recipes</a> <!-- TO DO: Add different categories to menu item -->
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" (click)="isCollapsed = true">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" (click)="isCollapsed = true">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" (click)="isCollapsed = true">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

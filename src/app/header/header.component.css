@@ -1,13 +1,9 @@
 
-#banner {
-    position: relative;
-    margin-top: 4%;
-}
 
 .navbar {
     background-color: #575757;
     color: #ffffff;
-    text-align: right;
+    text-align: left;
     overflow: hidden;
   
 }
@@ -16,6 +12,7 @@
     color: #efefef;
     text-align: right;
     font-weight: bold;
+    justify-content: left;
 }
 
 .navbar .navbar-brand:hover {
@@ -26,9 +23,11 @@
     color: #ffffff;
     margin: 0;
     font-weight: bold;
+    text-align: justify;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
 }
 
 .navbar .nav-item .nav-link:hover {
     color: #696969;
 }
-
