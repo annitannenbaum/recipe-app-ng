@@ -3,16 +3,14 @@
 .navbar {
     background-color: #575757;
     color: #ffffff;
-    text-align: left;
+    text-align: right;
     overflow: hidden;
   
 }
 
 .navbar .navbar-brand {
     color: #efefef;
-    text-align: right;
     font-weight: bold;
-    justify-content: left;
 }
 
 .navbar .navbar-brand:hover {

@@ -3,15 +3,15 @@
 
 
 <nav class="navbar sticky-top navbar-dark navbar-expand-md">
+    <a href="#" class="navbar-brand">
+        <img src="assets/img/brand.JPG" width="65" height="71.2%" alt="logo">
+    </a>
 
     <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div [ngbCollapse]="isCollapsed" class="collapse navbar-collapse">
-        <a href="#" class="navbar-brand">
-            <img src="assets/img/brand.JPG" width="65" height="71.2%" alt="logo">
-        </a>
         <div class="navbar" [ngbCollapse]="isCollapsed" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
@@ -27,6 +27,10 @@
                     <a href="#" class="nav-link" (click)="isCollapsed = true">About</a>
                 </li>
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Community Kitchen">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </div>
 </nav>
