@@ -3,7 +3,7 @@
 
 
 <nav class="navbar sticky-top navbar-dark navbar-expand-md">
-    <a href="#" class="navbar-brand">
+    <a routerLink="/" class="navbar-brand">
         <img src="assets/img/brand.JPG" width="65" height="71.2%" alt="logo">
     </a>
 
@@ -15,10 +15,10 @@
         <div class="navbar" [ngbCollapse]="isCollapsed" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a href="#" class="nav-link" (click)="isCollapsed = true">Recipes</a> <!-- TO DO: Add different categories to menu item -->
+                    <a routerLink="/recipes" class="nav-link" (click)="isCollapsed = true">Recipes</a> <!-- TO DO: Add different categories to menu item -->
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" (click)="isCollapsed = true">Login</a>
+                    <a  class="nav-link" (click)="isCollapsed = true">Login</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link" (click)="isCollapsed = true">Sign Up</a>
