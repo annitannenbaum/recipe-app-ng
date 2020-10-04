@@ -22,7 +22,7 @@ body {
     --darkgrey: #575757;
 }
 
-.btn {
+.btn-secondary {
     background-color: #2e8f5c !important;
     color: #efefef !important;
 }

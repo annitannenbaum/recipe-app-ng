@@ -1,0 +1,27 @@
+
+.tag-button{
+    border-radius: 12px;
+    border: 2px solid #6ee295;
+    color: #6ee295;
+    background-color: white;
+    text-decoration: none;
+    font-size: large;
+    padding: 1% 3%;
+    margin: 1%;
+}
+
+.tag-button:hover {
+    color: #2e8f5c;
+}
+
+.tag-content {
+    border: 2px solid #6ee295;
+    width: 95%;
+    height: auto;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.fas {
+    padding: 4px;
+}

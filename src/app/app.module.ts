@@ -5,13 +5,14 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RecipesComponent } from './recipes/recipes.component';
+import { RecipesComponent } from './recipe/recipes/recipes.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { CreateRecipeComponent } from './create-recipe/create-recipe.component';
+import { CreateRecipeComponent } from './recipe/create-recipe/create-recipe.component';
+import { RecipeTagsComponent } from './recipe/recipe-tags/recipe-tags.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    CreateRecipeComponent
+    CreateRecipeComponent,
+    RecipeTagsComponent
   ],
   imports: [
     BrowserModule,
