@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-md-12">
+        <h3>Recipes</h3>
+        <app-recipe-item *ngFor="let recipeItem of recipes"
+        [recipe]="recipeItem" (selectedRecipe)="onRecipeSelected(recipeElement)"></app-recipe-item>
+    </div>
+</div>

@@ -28,7 +28,9 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search Community Kitchen">
+                <input id="search" class="form-control mr-sm-2" type="search" 
+                placeholder="Search Community Kitchen" onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Search Community Kitchen'">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
